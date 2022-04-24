@@ -5,27 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grab - Login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/092e4b8dbc.js" crossorigin="anonymous"></script>
   </head>
   <body>
       <div class="login">
         <picture>
           <img src="assets/logo-grab.svg" alt="" width="200px"> <br>
         </picture>
-        <input type="text" name="log" class="log"> <br>
-        <span></span>
         
-        <input type="password" name="log" class="log"> <br>
-        <span></span>
+        <i class="fa-solid fa-at" id="arroba"></i>
+        <input type="text" name="log" class="log" id="nome" placeholder="email@exemplo"> <br> 
+        <div id="res"></div>
+        
+        <i class="fa-solid fa-lock" id="lock"></i>
+        <input type="password" name="log" class="log" id="senha"> <br>
 
-        <input type="button" value="Entrar" name="" class="btn">
+        <input type="button" value="Entrar" name="" class="btn" onclick="logar()">
+
         <section>
           <p>Problemas para entrar?</p>
-          <a href="#"><strong>Clique aqui</strong></a>
+          <a href="https://github.com/emanuelleaviana" target="_blank"><strong>Clique aqui</strong></a>
         </section>
       </div>
 
       <div class="metade">
         <img src="assets/undraw_interview_rmcf.svg" alt="">
       </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
