@@ -2,13 +2,52 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    background-color: #4E5BEE;
+    margin: 0;
 }
 
 div.login {
+    background-color: #4E5BEE;
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    text-align: center;
+}
+
+div picture img {
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.log {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 250px;
+    height: 30px;
+    margin: 8px 0px 0px 0px;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 250px;
+    height: 30px;
+    margin-top: 8px;
 
 }
 
-div.img {
-
+div section p, a {
+    margin-top: 250px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
 }
+
+div.metade {
+    float: right;
+    padding-top: 80px;
+    margin: auto;
+}
+
